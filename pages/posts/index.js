@@ -7,7 +7,7 @@ const Posts = ({ posts }) => {
       <Header />
       <div className="container content p-3 columns is-flex-wrap-wrap mx-auto">
         {posts.map((p) => (
-          <Link href={`posts/${p.id}`} key={p.id}>
+          <Link href={`posts/${p.id}`} key={p.id} passHref>
             <div className="column is-5 my-body-content m-2">
               <h3 className=" has-background-info-dark p-2 has-text-primary-light">
                 {p.title}
