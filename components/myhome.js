@@ -1,7 +1,6 @@
-import React from "react";
 import Bodywrap from "./bodywrap";
 
-const Homebody = () => {
+const Myhome = () => {
   return (
     <div>
       <Bodywrap>
@@ -17,4 +16,4 @@ const Homebody = () => {
   );
 };
 
-export default Homebody;
+export default Myhome;

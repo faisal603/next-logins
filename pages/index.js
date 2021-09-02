@@ -1,6 +1,6 @@
 import Header from "../components/header";
 import Footer from "../components/footer";
-import Homebody from "../components/Homebody";
+import Myhome from "../components/myhome";
 
 import Sidebar from "../components/sidebar";
 export default function Home() {
@@ -9,7 +9,7 @@ export default function Home() {
       <Header />
       <div className="container mx-auto columns is-flex-wrap-wrap">
         <div className="column is-9">
-          <Homebody />
+          <Myhome />
         </div>
         <div className="column is-3 mt-5">
           <Sidebar />
