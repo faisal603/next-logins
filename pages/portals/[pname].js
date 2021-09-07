@@ -34,7 +34,7 @@ const Postname = ({ post }) => {
               Step 2. Login using your username and password. Login screen
               appears upon successful login.
               <br />
-              Step 3. If you still can't{" "}
+              Step 3. If you still cant{" "}
               <b>
                 {" "}
                 {post.name} {post.postfix}{" "}

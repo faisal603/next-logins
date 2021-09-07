@@ -5,7 +5,7 @@ const Loginbody = ({ posts }) => {
   return (
     <div className="container content p-3 columns is-flex-wrap-wrap mx-auto">
       {posts.map((p) => (
-        <Link href={`portals/${p.url}`} passHref>
+        <Link href={`portals/${p.url}`} key={p._id} passHref>
           <div className="column is-3 my-body-content m-2">
             <h3 className="is-centered my-linker">
               {p.name} {p.postfix}
