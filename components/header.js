@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const Header = () => {
   return (
-    <nav className="navbar px-6 is-link" role="navigation">
+    <nav className="navbar px-6 my-header" role="navigation">
       <div className="navbar-brand py-1">
         <Link href="/" passHref>
           <figure className="image is-64x64">
@@ -16,15 +16,18 @@ const Header = () => {
             />
           </figure>
         </Link>
+        <h2 className="has-text-white mt-2 mx-2 is-size-3">
+          Logins Portal Helper
+        </h2>
       </div>
 
       <div className="navbar-menu">
         <div className="navbar-end">
           <Link href="/" passHref>
-            <a className="navbar-item">Home</a>
+            <a className="navbar-item has-text-white">Home</a>
           </Link>
-          <Link href="/posts" passHref>
-            <a className="navbar-item">Blog</a>
+          <Link href="/portals" passHref>
+            <a className="navbar-item has-text-white">portals</a>
           </Link>
         </div>
       </div>

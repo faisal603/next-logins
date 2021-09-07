@@ -15,7 +15,9 @@ a {
 * {
   box-sizing: border-box;
 }
-
+.var-color-change {
+  color: #5721f2;
+}
 .my-body-content {
   box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px,
     rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
@@ -29,8 +31,20 @@ a {
   border-radius: 10px;
   background-color: #ffffff;
 }
+.my-body-sidebar ul li {
+  padding: 5px;
+}
 
 .my-body-content-title {
   border-radius: 10px;
   text-align: center;
+}
+
+.my-header {
+  background-color: #247cfa;
+  background-image: linear-gradient(66deg, #247cfa 0%, #5721f2 100%);
+}
+
+.my-linker {
+  cursor: pointer;
 }

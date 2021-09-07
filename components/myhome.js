@@ -4,12 +4,10 @@ const Myhome = () => {
   return (
     <div>
       <Bodywrap>
-        <h1>Lorem ipsum dolor sit amet consectetur.</h1>
+        <h1>ReviewsBoy Presents Special Logins Portal</h1>
         <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente
-          numquam excepturi illo, voluptate quis quaerat? Ipsa laborum deserunt
-          eum iste, officiis nobis pariatur voluptatibus in veritatis aperiam
-          est, a beatae provident aliquam. Beatae, possimus.
+          It is a helping portal and purpose of this portal is to help employees
+          or students in login related or other account issues.
         </p>
       </Bodywrap>
     </div>
